@@ -34,7 +34,7 @@ a list [key, value] of length 2.
 
 def uniqueUpdate(data1, data2):
     # Initially empty dictionary
-    dupKeys = {}
+    dupKeys = {}:
 
     # Examine every (k, v2) pair in data2
     for [k, v2] in data2:
